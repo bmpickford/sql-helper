@@ -8,7 +8,7 @@ To start, you need to provide the username, password, host and database
 var sql = require('sql-helper');
 
 sql.setup('root', '*******', 'localhost', 'testDB', function(result){
-  console.log(result['msg]);
+  console.log(result['msg']);
 });
 ```
 All callback results are in the JSON format of {'action':'fail/success', 'msg':'message here', 'data':JSON of reuturned rows if any}
