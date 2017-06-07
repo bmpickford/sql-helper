@@ -17,7 +17,7 @@
   "repository" : { 
     "type" : "git",
     "url" : "https://github.com/bmpickford/sql-helper"
-  }
+  },
   "dependencies": {
     "mysql": "^2.13.0"
   }
