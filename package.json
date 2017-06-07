@@ -1,0 +1,20 @@
+{
+  "name": "sql-helper",
+  "version": "1.0.0",
+  "description": "Helper for executing SQL queries",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "node ./test/test.js"
+  },
+  "keywords": [
+    "sql"
+  ],
+  "author": "Benjamin McColm-Pickford",
+  "license": "ISC",
+  "dependencies": {
+    "mysql": "^2.13.0"
+  }
+}
